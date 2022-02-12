@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenLine</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- Page header -->
+    <header class="header">
+      <div class="logo">
+        <img src="./assets/homepage/Group 16059.png" alt="logo" />
+      </div>
+
+      <div class="wrap">
+        <ul>
+          <li>
+            <select id="currency">
+              <option value="EN/USD">EN/USD</option>
+            </select>
+          </li>
+          <li><a href="#" target="_blank">Business</a></li>
+          <li><a href="#" target="_blank">Help</a></li>
+          <li><a href="#" target="_blank">Register</a></li>
+          <li>
+            <button id="signin"><a href="#" target="_blank">Sign In</a></button>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="#" target="_blank">UK trains</a></li>
+          <li><a href="#" target="_blank">Euopean Trains</a></li>
+          <li><a href="#" target="_blank">Train Companies</a></li>
+          <li><a href="#" target="_blank">Popular Journeys</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Page body -->
+    <main>
+      <!-- form section,providing a form for passengers -->
+      <section class="form-section">
+        <div class="form-wrap">
+          <form action="https://testurl.com" method="post">
+            <section class="departure">
+              <label for="input-from">Input</label>
+              <input
+                class="text-input"
+                type="text"
+                name="input"
+                id="input-from"
+                placeholder="Placeholder"
+                required
+                pattern="[A-Za-z]"
+                maxlength="30"
+              />
+              <label for="To">To</label>
+              <input
+                class="text-input"
+                type="text"
+                name="to"
+                id="to"
+                placeholder="Placeholder"
+                required
+                pattern="[A-Za-z]"
+                maxlength="30"
+              />
+            </section>
+            <section class="via">
+              <input type="checkbox" id="via-checkbox" />
+              <label for="via-checkbox">Via/Avoid</label>
+              <select required>
+                <option value="Avoid">Avoid</option>
+                <option value="Via">Via</option>
+              </select>
+              <input
+                type="text"
+                name="station"
+                id="station"
+                placeholder="Enter Station..."
+                pattern="[A-Za-z]"
+                maxlength="30"
+              />
+            </section>
+            <section class="higher-box-tickets">
+              <section class="destination">
+                <div>
+                  <label for="out-date">Out</label>
+                  <input
+                    class="text-input"
+                    type="date"
+                    name="Out-date"
+                    id="out-date"
+                    required
+                  />
+                  <select name="leaving">
+                    <option value="leaving">leaving at</option>
+                  </select>
+                  <input type="time" name="leaving-time" />
+                </div>
+
+                <div>
+                  <label for="return-date">Return</label>
+                  <input
+                    class="text-input"
+                    type="date"
+                    name="return"
+                    id="return-date"
+                    required
+                  />
+                  <select name="leaving">
+                    <option value="leaving">leaving at</option>
+                  </select>
+                  <input type="time" />
+                </div>
+              </section>
+              <section class="passengers">
+                <div class="flex-input">
+                  <label for="passnegers"
+                    >Add Passengers
+                    <select>
+                      <option>2 adult,2kids(16+),2Kids(18+)</option>
+                    </select>
+                  </label>
+                </div>
+              </section>
+            </section>
+            <button id="form-button">Get times &tickets</button>
+          </form>
+          <img class="bg-2" src="./assets/homepage/trian_PNG-1.png" />
+          <img
+            class="bg-1"
+            src="./assets/homepage/nick-page-4iZrQRh5gb4-unsplash.png"
+          />
+        </div>
+      </section>
+      <!-- brief card information of trains -->
+      <section
+        class="brief-information-section"
+        style="display: flex; flex-direction: column; align-items: center"
+      >
+        <section class="brief-card">
+          <ul style="display: flex; justify-content: space-around">
+            <li>
+              <div>
+                <img
+                  src="./assets/homepage/-train_90433.png"
+                  alt="train icon"
+                />
+                <div class="desc-left">
+                  <h4>Lodon to Liverpool</h4>
+                  <p>from $75.08</p>
+                </div>
+                <div class="right">
+                  <p>7.0</p>
+                  <p>Good</p>
+                  <p>Reviews 350</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img
+                  src="./assets/homepage/-train_90433.png"
+                  alt="train icon"
+                />
+                <div class="desc-left">
+                  <h4>Lodon to Liverpool</h4>
+                  <p>from $75.08</p>
+                </div>
+                <div class="right">
+                  <p>7.0</p>
+                  <p>Good</p>
+                  <p>Reviews 350</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img
+                  src="./assets/homepage/-train_90433.png"
+                  alt="train icon"
+                />
+                <div class="desc-left">
+                  <h4>Lodon to Liverpool</h4>
+                  <p>from $75.08</p>
+                </div>
+                <div class="right">
+                  <p>7.0</p>
+                  <p>Good</p>
+                  <p>Reviews 350</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <button><a href="#">View All</a></button>
+      </section>
+      <!-- Compare Travel Join People Support and Customer function -->
+      <section class="funciton-selection">
+        <ul>
+          <li>
+            <img src="./assets/homepage/1.png" />
+            <h3>Compare</h3>
+            <p>Compare cheap prices for train and bus tickets</p>
+          </li>
+          <li>
+            <img src="./assets/homepage/-train_90433.png" alt="train" />
+            <h3>Travel</h3>
+            <p>Travel thousands of desitnations in and across 45 countries</p>
+          </li>
+          <li>
+            <img src="./assets/homepage/XMLID_91_.png" alt="add icon" />
+            <h3>Join people</h3>
+            <p>Join million of people who use us everyday</p>
+          </li>
+          <li>
+            <img src="./assets/homepage/" alt="Support icon" />
+            <h3>Support</h3>
+            <p>Customer service on hand every step of the way</p>
+          </li>
+          <li>
+            <img src="assets/homepage/" alt="Customer icon" />
+            <h3>Customer</h3>
+            <p>
+              our different customer features and unique capacity built up
+              across our high b2c channels are also
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- help and FAQ section -->
+      <section class="help-section">
+        <section class="details">
+          <img
+            src="./assets/homepage/Rectangle 113.png"
+            alt="bg1-113"
+            style="width: 400px"
+          />
+          <img
+            src="./assets/homepage/Rectangle 159.png"
+            alt="bg2-159"
+            style="width: 400px"
+          />
+          <h3>Explore European effortlessly by train and bus</h3>
+          <p>Save 61% on average when you book advance</p>
+          <button><a href="#">GET more details</a></button>
+        </section>
+        <section class="bg-img">
+          <img src="./assets/homepage/trian_PNG-1.png" alt="train" />
+          <img
+            src="./assets/homepage/woman-hungarian-parliament-budapest-hungary-shutterstock_1118873774-1024x683.png"
+            alt="women-portrait"
+          />
+          <img src="./assets/homepage/Ellipse 9.png" alt="elliplse" />
+        </section>
+        <!-- middle part of help section -->
+        <section class="sub-help">
+          <section class="left-help">
+            <h2>We're here to help</h2>
+            <p>
+              Find clear <a href="#">FAQS</a> online and customer service
+              avaliable at the end of the phone seven days a week
+            </p>
+            <img src="./assets/homepage/illu_laptop_help.png" alt="labtop" />
+            <button><a href="#">CTA Buttom</a></button>
+          </section>
+          <section class="faq">
+            <ul>
+              <li>
+                <h3>
+                  Do I need to confirm in advance if travelling on a different
+                  train
+                </h3>
+                <p>
+                  Yes don't let us know if you want to change trains,but you'll
+                  need to check the terms of your ticket to see if it'll still
+                  be valid for a different train
+                </p>
+              </li>
+              <li><h3>how much luggage can I take on the train</h3></li>
+              <li><h3>How will I receive my tickets</h3></li>
+              <li><h3>What do the different seat options mean？</h3></li>
+            </ul>
+          </section>
+          <!-- below section is download app information -->
+          <section class="App">
+            <section class="left">
+              <h2>European's leading train and bus app</h2>
+              <p>
+                Keep your trip on track with departure times,platform info, and
+                tickets in the plam of your hand
+              </p>
+              <a
+                href="#
+              "
+              >
+                <img
+                  src="./assets/homepage/Group 9691.png"
+                  alt="download from app store on ios"
+              /></a>
+              <a href="#">
+                <img
+                  src="./assets/homepage/Group 9693.png"
+                  alt="download from google play"
+                />
+              </a>
+            </section>
+            <section class="right">
+              <img
+                src="./assets/homepage/mobile3.png"
+                alt="mobile screenshot"
+              />
+            </section>
+          </section>
+          <!-- navigation icon -->
+          <section class="navigation">
+            <a href="#"
+              ><img src="./assets/homepage/Group 9807.png" alt="go left"
+            /></a>
+            <a href="#"
+              ><img src="./assets/homepage/Group 9808.png" alt="right"
+            /></a>
+          </section>
+        </section>
+      </section>
+    </main>
+    <!-- page footer -->
+    <footer class="footer">
+      <section class="footer-link" style="background-color: rgb(26, 170, 143)">
+        <p>We are happy when our customers are too</p>
+        <!-- left footer, img and icons -->
+        <section class="footer-left">
+          <div class="img">
+            <img src="./assets/homepage/Group 16060.png" alt="160" />
+          </div>
+          <p>
+            Greenline.com limited is registered in England and wales. Company
+            Np.3846791
+          </p>
+          <p>
+            Register address: 3rd floor,120 Halborn,London EC1N 2TD, United
+            Kingdom. VAT number:791^^7161 06
+          </p>
+          <img src="./assets/homepage/Group 9740.png" alt="facebook icon" />
+          <img src="./assets/homepage/Group 9741.png" alt="Twitter icon" />
+          <img src="./assets/homepage/Group 9742.png" alt="Camera icon" />
+          <img src="./assets/homepage/Group 9743.png" alt="SMS icon" />
+        </section>
+        <!-- middle section of the footer -->
+        <section class="footer-middle">
+          <ul>
+            <li><a href="#">About Greenline</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Investors</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Greenline Partner Solutions</a></li>
+            <li><a href="#">Addilates and Partnerships</a></li>
+            <li><a href="#">Terms and conditions/Security</a></li>
+            <li><a href="#">Privacy/Cookies</a></li>
+            <li><a href="#">Morden Slavery Act(UK)</a></li>
+          </ul>
+        </section>
+        <!-- right section of the footer -->
+        <section class="footer-right">
+          <ul>
+            <li>
+              <a href="">Help and useful information</a>
+            </li>
+            <li>
+              <a href="">Train and bus companies</a>
+            </li>
+            <li>
+              <a href="">Train Journeys in the UK</a>
+            </li>
+            <li>
+              <a href="">Trains and buses in European</a>
+            </li>
+            <li>
+              <a href="">Top destinations</a>
+            </li>
+            <li>
+              <a href="">Stations</a>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <!-- on the end of the page terms section  -->
+      <section class="terms" style="background-color: rgb(21, 143, 120)">
+        <div class="img-wrap">
+          <a href="#" target="_blank"
+            ><img src="./assets/homepage/Copyright.png" alt=""
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="./assets/homepage/Copyright-1.png" alt=""
+          /></a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

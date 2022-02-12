@@ -1,0 +1,119 @@
+/* a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+#currency::before {
+  content: 'xxx';
+  background: url('./assets/homepage/EN-USD.png') no-repeat scroll 0 0;
+}
+.header {
+  width: 80%;
+  font: bolder;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header .logo {
+  width: 372px;
+  height: 74px;
+}
+.header .wrap > ul {
+  display: flex;
+  width: 440px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .wrap > ul > li {
+  list-style-type: none;
+}
+#signin {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(6, 80, 166);
+  border-radius: 20px;
+  border: 0px;
+}
+.form-section .form-wrap > form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: center; 
+}
+.form-section .form-wrap > form {
+  box-sizing: border-box;
+  position: relative;
+  left: 100px;
+  top: 50px;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 5px 5px rgba(207, 239, 233);
+  z-index: 999;
+}
+
+.bg-1 {
+  position: relative;
+  top: -782px;
+  left: 400px;
+  z-index: 1;
+  height: 600px;
+}
+.bg-2 {
+  position: relative;
+
+  z-index: 2;
+  top: -200px;
+  left: 400px;
+}
+.flex-input {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 40px;
+}
+.text-input {
+  line-height: 30px;
+  width: 200px;
+  border: 1px;
+  background-color: rgb(241, 242, 246);
+}
+.departure {
+  width: 100%;
+  display: flex;
+}
+.via {
+  display: flex;
+}
+
+#form-button {
+  height: 30px;
+  width: 80%;
+  background-color: rgb(4, 84, 164);
+  border-radius: 5px;
+}
+/* footer 
+.footer .terms {
+  display: flex;
+  justify-content: center;
+}
+.footer .terms .img-wrap {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-section {
+  height: 600px;
+  background: rgba(207, 239, 233)
+    linear-gradient(rgba(207, 239, 233), rgb(250, 250, 250)) no-repeat scroll 0
+    0;
+} **/

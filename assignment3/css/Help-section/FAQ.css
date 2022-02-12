@@ -1,0 +1,74 @@
+/* no svg icon on this area  */
+.faq {
+  margin: 0 auto;
+  height: 750px;
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-faq {
+  width: 570px;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-faq .text-wrap > h2 {
+  font-size: 4em;
+  margin: 0px;
+}
+.left-faq .text-wrap > p {
+  font-size: 1.5em;
+  color: rgb(117, 117, 117);
+  margin: 10px 0;
+}
+.left-faq > button {
+  height: 96px;
+  width: 497px;
+  border-radius: 60px;
+  border: none;
+  background-color: rgb(4, 84, 164);
+  color: white;
+  font-size: 2em;
+}
+
+.right-faq {
+  width: 830px;
+  height: 570px;
+}
+.right-faq > ul {
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right-faq > ul > li {
+  border-radius: 11px;
+  box-shadow: 2px 2px 1px 1px rgba(223, 223, 223);
+}
+.right-faq h3 {
+  margin: 0px;
+}
+
+.right-faq .text-wrap {
+  width: 630px;
+}
+
+.right-faq > ul > li:nth-child(1) {
+  box-sizing: border-box;
+  height: 188px;
+  border: 1px solid rgb(22, 87, 165);
+  padding-left: 45px;
+  padding-top: 45px;
+}
+
+.right-faq > ul > li:nth-child(1) ~ li {
+  border: 1px solid rgb(223, 223, 223);
+  height: 95px;
+  line-height: 95px;
+  vertical-align: middle;
+  padding-left: 45px;
+}

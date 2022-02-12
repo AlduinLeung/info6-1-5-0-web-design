@@ -1,0 +1,263 @@
+/* set background for form and text */
+
+/* TODO fix bug of background img position  */
+.form-section {
+  width: 100%;
+  height: 850px;
+  background-image: url('../assets/homepage/trian_PNG-1.png'),
+    url('../assets/homepage/nick-page-1.png'),
+    url('../assets/homepage/nick-page-4iZrQRh5gb4-unsplash.png'),
+    linear-gradient(rgba(207, 239, 233), white);
+  background-position: bottom, bottom, bottom;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+/* set flex for content  */
+.form-section .content-area {
+  width: 1360px;
+  height: 850px;
+  margin-left: 240px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-area .form-wrap {
+  display: inline-block;
+  width: 670px;
+  height: 670px;
+  background-color: #fff;
+
+  border-radius: 40px;
+  padding: 40px 35px 35px 25px;
+  box-sizing: border-box;
+}
+.form-wrap form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+/* set input background color  */
+form input {
+  line-height: 36px;
+  background-color: rgb(241, 242, 246);
+  border: none;
+  border-radius: 5px;
+}
+
+/* form details */
+form .departure {
+  display: flex;
+}
+.departure label {
+  display: block;
+}
+.departure .swap-logo button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  padding-top: 10px;
+  border: none;
+  background-color: rgb(0, 168, 143);
+}
+.departure .departure-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.departure input {
+  width: 270px;
+}
+
+.form-selection > hr {
+  width: 100%;
+  border: 1px solid;
+}
+.via {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  height: 36px;
+  justify-content: space-around;
+  align-items: center;
+}
+.via * {
+  margin-left: 6px;
+}
+.via input[type='text'] {
+  flex-grow: 1;
+}
+.via select {
+  width: 85px;
+  height: 36px;
+  border: none;
+  padding-left: 10px;
+  vertical-align: middle;
+  background-color: rgb(241, 242, 246);
+}
+.via label {
+  width: 85px;
+  color: rgb(117, 117, 117);
+}
+.via input[type='checkbox'] {
+  background-color: rgb(241, 242, 246);
+  vertical-align: middle;
+  margin-right: 10px 10px;
+  width: 40px;
+}
+.button-selection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 520px;
+  height: 50px;
+  background-color: rgb(4, 84, 164);
+  margin: 30px auto 0;
+  border: none;
+  border-radius: 20px 20px 0 0;
+  vertical-align: middle;
+}
+.button-selection button {
+  height: 31px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(4, 84, 164);
+  font-size: 1.1em;
+  color: white;
+  margin-left: 10px;
+  vertical-align: baseline;
+  text-align: center;
+  line-height: 31px;
+  padding: 0px 20px;
+}
+.button-selection button:nth-child(2) {
+  background-color: rgb(0, 168, 143);
+}
+.higher-box-tickets {
+  padding: 27px 20px;
+  width: 607px;
+  height: 245px;
+  box-shadow: 1px 2px 2px 2px rgb(232, 239, 245);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  width: 520px;
+  height: 65px;
+  margin: 27px auto;
+  background-color: rgb(4, 84, 164);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5em;
+  font-weight: 200;
+  vertical-align: middle;
+}
+.destination .date-wrap {
+  width: 270px;
+  height: 105px;
+}
+.destination {
+  display: flex;
+  justify-content: space-between;
+}
+.date-wrap label {
+  display: block;
+  box-sizing: border-box;
+}
+.date-wrap input[type='text'] {
+  width: 258px;
+  height: 40px;
+  color: black;
+  vertical-align: middle;
+  line-height: 40px;
+  font: 0.9em;
+  padding-left: 10px;
+}
+
+.date-wrap select {
+  width: 125px;
+  height: 40px;
+  border: none;
+  background-color: rgb(241, 242, 246);
+}
+.date-wrap input[type='number'] {
+  width: 45px;
+  height: 40px;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  font: 0.9em;
+  padding: 0px;
+}
+.date-wrap span {
+  color: rgb(0, 168, 143);
+  font-weight: 2em;
+}
+.passengers {
+  margin-top: 15px;
+}
+.passengers * {
+  display: block;
+}
+.passengers select {
+  height: 40px;
+  width: 100%;
+  border: none;
+  background-color: rgb(241, 242, 246);
+  margin-top: 5px;
+}
+
+.hr {
+  margin-top: 15px;
+}
+.hr > hr {
+  border: 1px solid rgb(241, 242, 246);
+}
+
+/* welcome text and button  */
+.welcome-text-area {
+  margin-left: 100px;
+  display: inline-block;
+  width: 587px;
+  height: 280px;
+  color: white;
+}
+.welcome-text-area > h1 {
+  font-size: 2.2em;
+  line-height: 50px;
+}
+.welcome-text-area > p {
+  font-size: 1.4em;
+}
+.welcome-text-area > button {
+  font-weight: bold;
+  width: 200px;
+  height: 60px;
+  margin-top: 20px;
+  border: 2px solid white;
+  background-color: rgb(0, 168, 143);
+  border-radius: 40px;
+  color: white;
+  font-size: 1.5em;
+}
+.clock {
+  line-height: 30px;
+  display: flex;
+}
+.clock > img {
+  height: 30px;
+  width: 30px;
+}
+.leaving {
+  margin: 5px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

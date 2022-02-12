@@ -1,0 +1,98 @@
+/* use a background image for grid area need to deal with that */
+.footer-links {
+  height: 470px;
+  background-color: rgb(0, 168, 143);
+}
+/* welcome text part of the footer  */
+.footer-links .welcome-text {
+  height: 60px;
+  line-height: 60px;
+  margin-left: 120px;
+  color: white;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+/* footer links part of the footer  */
+/* flex part  */
+.flex-footer {
+  margin: 0 auto;
+  width: 1312px;
+  height: 370px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-left {
+  width: 320px;
+  color: white;
+  font-size: 0.9em;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-left .top-wrap {
+  height: 240px;
+}
+.footer-left .top-wrap > p {
+  display: block;
+  line-height: 25px;
+}
+.footer-left .footer-icon-group > a {
+  margin-right: 10px;
+}
+/* middle part */
+.flex-footer .footer-middle {
+  width: 230px;
+}
+.flex-footer .footer-middle > ul > li {
+  display: block;
+  height: 38px;
+  width: 100%;
+  font-size: 1em;
+  line-height: 38px;
+  padding: 0;
+}
+.flex-footer .footer-middle > ul {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.flex-footer .footer-right {
+  width: 536px;
+  height: 350px;
+  background-image: url('../assets//homepage/Repeat\ Grid\ 18.png');
+  background-position: bottom;
+}
+
+.flex-footer .footer-right > ul {
+  padding: 0px;
+  margin: 0px;
+}
+.flex-footer .footer-right > ul > li {
+  margin-left: 15px;
+  line-height: 57px;
+  color: white;
+}
+/* footer link */
+.terms {
+  background-color: rgb(0, 140, 120);
+  display: flex;
+  justify-content: center;
+}
+
+.footer .terms > a {
+  display: inline-block;
+}
+.footer .terms-wrap {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  height: 54px;
+  line-height: 50px;
+  color: white;
+  font-size: 0.9em;
+  font-weight: lighter;
+}

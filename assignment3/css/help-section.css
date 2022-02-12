@@ -1,0 +1,7 @@
+@import './Help-section/FAQ.css';
+@import './Help-section/App-section.css';
+@import './Help-section/detail.css';
+.help-section {
+  display: flex;
+  flex-direction: column;
+}

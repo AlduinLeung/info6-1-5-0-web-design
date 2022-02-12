@@ -1,0 +1,30 @@
+/* set global style \ */
+
+/* font */
+@font-face {
+  font-family: 'test-font';
+  src: url('../assets/FaricyNew-Regular.woff') format('woff'); /* chrome firefox */
+  font-style: normal;
+  font-weight: normal;
+}
+* {
+  font-family: 'test-font', sans-serif;
+}
+/* list style */
+li {
+  list-style: none;
+}
+
+/* link style */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+/* set middle in :horizontal */
+.middle {
+  display: flex;
+  justify-content: center;
+}

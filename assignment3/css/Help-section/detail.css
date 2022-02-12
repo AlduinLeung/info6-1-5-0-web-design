@@ -1,0 +1,57 @@
+.help-section .details {
+  height: 730px;
+  margin-left: 100px;
+}
+/* need to fix background image position bug */
+.help-section .details {
+  background-image: url('../../assets/homepage/woman-hungarian-parliament-budapest-hungary-shutterstock_1118873774-1024x683.png'),
+    url('../../assets/homepage/trian_PNG-1.png'),
+    url('../../assets/homepage/Rectangle 113.png'),
+    url('../../assets/homepage/Rectangle 159.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: right bottom, right bottom, left, right;
+}
+.details .text-wrap {
+  width: 780px;
+  height: 400px;
+  margin-left: 160px;
+  margin-top: 160px;
+}
+.details .text-wrap > h3 {
+  color: white;
+  font-size: 3.2em;
+  font-weight: 600;
+}
+.details .text-wrap > p {
+  color: white;
+  font-size: 1.8em;
+}
+.details .text-wrap > button {
+  width: 480px;
+  height: 85px;
+  background-color: white;
+  border: none;
+  border-radius: 60px;
+  color: rgb(0, 169, 144);
+  font-size: 2em;
+  font-weight: bold;
+}
+/* <img
+src="./assets/homepage/Rectangle 113.png"
+alt="bg1-113"
+style="width: 400px"
+/>
+<img
+src="./assets/homepage/Rectangle 159.png"
+alt="bg2-159"
+style="width: 400px"
+/>
+
+<section class="bg-img">
+<img src="./assets/homepage/trian_PNG-1.png" alt="train" />
+<img
+  src="./assets/homepage/woman-hungarian-parliament-budapest-hungary-shutterstock_1118873774-1024x683.png"
+  alt="women-portrait"
+/>
+<img src="./assets/homepage/Ellipse 9.png" alt="elliplse" />
+</section> */

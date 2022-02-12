@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenLine</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <!-- Page header -->
+    <header class="header">
+      <div class="header-wrap">
+        <div class="header-function-top">
+          <div class="logo">
+            <img src="./assets/homepage/Group 16059.png" alt="logo" />
+          </div>
+          <ul>
+            <li>
+              <img src="./assets/homepage/gb.png" alt="EN/USD" />
+              <select>
+                <option value="EN/USD">EN/USD</option>
+              </select>
+            </li>
+            <li><a href="#" target="_blank">Business</a></li>
+            <li><a href="#" target="_blank">Help</a></li>
+            <li><a href="#" target="_blank">Register</a></li>
+            <li>
+              <button>
+                <a href="#" target="_blank"
+                  ><img src="./assets/homepage/Sign in.png" alt="sign in"
+                /></a>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="function-selecton-bottom">
+          <ul>
+            <li>
+              <a href="#" target="_blank">UK trains</a>
+              <img src="./assets/homepage/down-arrow-svgrepo-com.svg" alt="" />
+            </li>
+            <li>
+              <a href="#" target="_blank">Euopean Trains</a>
+              <img src="./assets/homepage/down-arrow-svgrepo-com.svg" alt="" />
+            </li>
+            <li>
+              <a href="#" target="_blank">Train Companies</a>
+              <img src="./assets/homepage/down-arrow-svgrepo-com.svg" alt="" />
+            </li>
+            <li>
+              <a href="#" target="_blank">Popular Journeys</a>
+              <img src="./assets/homepage/down-arrow-svgrepo-com.svg" alt="" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- Page body -->
+    <main>
+      <!-- form section,providing a form for passengers -->
+      <section class="form-section">
+        <div class="content-area">
+          <div class="form-wrap">
+            <form action="https://testurl.com" method="post">
+              <section class="departure">
+                <div class="input-wrap">
+                  <label for="input-from">Input</label>
+                  <input
+                    class="text-input"
+                    type="text"
+                    name="input"
+                    id="input-from"
+                    placeholder="Placeholder"
+                    required
+                    pattern="[A-Za-z]"
+                    maxlength="30"
+                  />  
+                </div>
+                
+               
+                <div class="swap-logo">
+                  <button>
+                    &#8594
+                  </button>
+                </div>
+                  <div class="input-wrap"> <label for="To">To</label>
+                    <input
+                      class="text-input"
+                      type="text"
+                      name="to"
+                      id="to"
+                      placeholder="Placeholder"
+                      required
+                      pattern="[A-Za-z]"
+                      maxlength="30"
+                    />
+                  </div>
+               
+              </section>
+              <section class="via">
+                <input type="checkbox" id="via-checkbox" />
+                <label for="via-checkbox">Via / Avoid</label>
+                <select required>
+                  <option value="Avoid">Avoid</option>
+                  <option value="Via">Via</option>
+                </select>
+                <input
+                  type="text"
+                  name="station"
+                  id="station"
+                  placeholder="Enter Station..."
+                  pattern="[A-Za-z]"
+                  maxlength="30"
+                />
+              </section>
+              <div class="hr">
+                <hr>
+              </div>
+              <section class="button-selection">
+                <Button>One Way</Button>
+                <Button>Return</Button>
+                <Button>Open Return</Button>
+                <Button>Seasons</Button>
+              </section>
+              <section class="higher-box-tickets">
+                <section class="destination">
+                  <div class="date-wrap">
+                    <label for="out-date">Out</label>
+                    <input
+                      class="text-input"
+                      type="text"
+                      name="Out-date"
+                      id="out-date"
+                      required
+                      placeholder="Thu,Jun 16"
+                    />
+                    <div class="leaving">
+                      <select name="leaving">
+                        <option value="leaving">leaving at</option>
+                      </select>
+                      
+                       <span class="clock"><img src="./assets/homepage/icons8-clock-50.png" alt="" /></span> 
+                      <input type="number" class="timer-input" placeholder="16"/><span>:</span>
+                      <input type="number" class="timer-input" placeholder="00"/>
+                    </div>
+                    
+                  </div>
+  
+                  <div class="date-wrap">
+                    <label for="return-date">Return</label>
+                    <input
+                      class="text-input"
+                      type="text"
+                      name="return"
+                      id="return-date"
+                      required
+                      placeholder="Thu,Jun 16"
+                    />
+                    <div class="leaving">
+                      <select name="leaving">
+                        <option value="leaving">leaving at</option>
+                      </select>
+                      
+                       <span class="clock"><img src="./assets/homepage/icons8-clock-50.png" alt="" /></span> 
+                      <input type="number" class="timer-input" placeholder="16"/><span>:</span>
+                      <input type="number" class="timer-input" placeholder="00"/>
+                    </div>
+                    
+                  </div>
+                </section>
+                <section class="passengers">
+                    <label for="passnegers"
+                      >Add Passengers
+                      <select>
+                        <option>2 adult,2kids(16+),2Kids(18+)</option>
+                      </select>
+                    </label>
+                </section>
+              </section>
+              <button class="submit-button">Get times & tickets</button>
+            </form>
+          </div>
+          <div class="welcome-text-area">
+            <h1>Explore European effortlessly by train and bus</h1>
+            <p>
+              Save 61% on average when you book in advance*
+            </p>
+            <button>Learn More</button>
+          </div>
+        </div>
+      
+      </section>
+      <!-- brief card information of trains -->
+      <section class="brief-information-section">
+        <section class="brief-card">
+          <ul>
+            <li>
+              <div class="brief-wrap">
+                <div class="train-img">
+                  <img
+                  src="./assets/homepage/train.png"
+                  alt="train icon"
+                />
+                </div>
+                
+                <div class="brief-flex">
+                <div class="desc-left">
+                  <h4>Lodon to Liverpool</h4>
+                  <p>from $75.08</p>
+                </div>
+                <div class="right">
+                  <div class="blue-star">
+                    7.0
+                  </div>
+                  <div class="small-grade">
+                    <p>Good</p>
+                    <p>Reviews 350</p>
+                  </div>
+                  
+                </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="brief-wrap">
+                <div class="train-img">
+                  <img
+                  src="./assets/homepage/train.png"
+                  alt="train icon"
+                />
+                </div>
+              <div class="brief-flex">
+                <div class="desc-left">
+                  <h4>Lodon to Liverpool</h4>
+                  <p>from $75.08</p>
+                </div>
+                <div class="right">
+                  <div class="blue-star">
+                    7.0
+                  </div>
+                  <div class="small-grade">
+                    <p>Good</p>
+                    <p>Reviews 350</p>
+                  </div>
+                  
+                </div>
+              </div>
+              </div>
+            </li>
+            <li>
+              <div class="brief-wrap">
+                <div class="train-img">
+                  <img
+                  src="./assets/homepage/train.png"
+                  alt="train icon"
+                />
+                </div>
+              <div class="brief-flex">
+                <div class="desc-left">
+                  <h4>Lodon to Liverpool</h4>
+                  <p>from $75.08</p>
+                </div>
+                <div class="right">
+                  <div class="blue-star">
+                    7.0
+                  </div>
+                  <div class="small-grade">
+                    <p>Good</p>
+                    <p>Reviews 350</p>
+                  </div>
+                  
+                </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <button><a href="#">View All</a></button>
+        </section>
+      </section>
+      <!-- Compare Travel Join People Support and Customer function -->
+      <section class="funciton-selection">
+        <ul>
+          <li>
+            <div class="li-wrap">
+              <img src="./assets/homepage/-train_90433.png" alt="train" />
+              <h3>Compare</h3>
+              <p>Compare cheap prices for train and bus tickets</p>
+            </div>
+          </li>
+          <li>
+            <div class="li-wrap">
+              <img src="./assets/homepage/-train_90433.png" alt="train" />
+              <h3>Travel</h3>
+              <p>Travel thousands of desitnations in and across 45 countries</p>
+            </div>
+          </li>
+          <li>
+            <div class="li-wrap">
+              <img src="./assets/homepage/XMLID_91_.png" alt="add icon" />
+              <h3>Join people</h3>
+              <p>Join million of people who use us everyday</p>
+            </div>
+          </li>
+          <li>
+            <div class="li-wrap">
+              <img src="./assets/homepage/-train_90433.png" alt="train" />
+              <h3>Support</h3>
+              <p>Customer service on hand every step of the way</p>
+            </div>
+          </li>
+          <li>
+            <div class="li-wrap">
+              <img src="./assets/homepage/-train_90433.png" alt="train" />
+              <h3>Customer</h3>
+              <p>
+                our different customer features and unique capacity built up
+                across our high b2c channels are also
+              </p>
+            </div>
+          </li>
+        </ul>
+        <div class="slider">
+          <button>&#8594</button>
+        </div>
+      </section>
+      <!-- help and FAQ section -->
+      <section class="help-section">
+        <section class="details">
+          <div class="text-wrap">
+            <h3>Explore European effortlessly by train and bus</h3>
+            <p>Save 61% on average when you book advance*</p>
+            <button><a href="#">GET more details</a></button>
+          </div>
+        </section>
+
+        <!-- middle part of help section -->
+        <section class="faq">
+          <section class="left-faq">
+            <div class="text-wrap">
+              <h2>We're here to help</h2>
+              <p>
+                Find clear <a href="#">FAQS</a> online and customer service
+                avaliable at the end of the phone seven days a week
+              </p>
+            </div>
+            <div class="img-wrap">
+              <img src="./assets/homepage/illu_laptop_help.png" alt="labtop" />
+            </div>
+            <button><a href="#">CTA Buttom</a></button>
+          </section>
+          <section class="right-faq">
+            <ul>
+              <li>
+                <div class="text-wrap">
+                  <h3>
+                    Do I need to confirm in advance if travelling on a different
+                    train
+                  </h3>
+                  <p>
+                    Yes don't let us know if you want to change trains,but
+                    you'll need to check the terms of your ticket to see if
+                    it'll still be valid for a different train
+                  </p>
+                </div>
+              </li>
+              <li>
+                <h3>how much luggage can I take on the train</h3>
+              </li>
+              <li>
+                <h3>How will I receive my tickets</h3>
+              </li>
+              <li>
+                <h3>What do the different seat options mean？</h3>
+              </li>
+            </ul>
+          </section>
+        </section>
+        <!-- below section is download app information -->
+        <section class="App">
+          <div class="App-wrap">
+            <section class="left">
+              <h2>European's leading train and bus app</h2>
+              <p>
+                Keep your trip on track with departure times,platform info, and
+                tickets in the plam of your hand
+              </p>
+              <div.left-img-wrap>
+                <a
+                  href="#
+                "
+                >
+                  <img
+                    src="./assets/homepage/Group 9691.png"
+                    alt="download from app store on ios"
+                /></a>
+                <a href="#">
+                  <img
+                    src="./assets/homepage/Group 9693.png"
+                    alt="download from google play"
+                  />
+                </a>
+              </div.left-img-wrap>
+            </section>
+            <section class="right">
+              <img
+                src="./assets/homepage/mobile3.png"
+                alt="mobile screenshot"
+              />
+            </section>
+          </div>
+          <section class="navigation">
+            <a href="#"
+              ><img src="./assets/homepage/Group 9807.png" alt="go left"
+            /></a>
+            <a href="#"
+              ><img src="./assets/homepage/Group 9808.png" alt="right"
+            /></a>
+          </section>
+        </section>
+      </section>
+    </main>
+    <!-- page footer -->
+    <footer class="footer">
+      <section class="footer-links">
+        <div class="welcome-text">
+          <p>We are happy when our customers are too</p>
+        </div>
+
+        <!-- left footer, img and icons -->
+        <div class="flex-footer">
+          <section class="footer-left">
+            <div class="top-wrap">
+              <div class="img">
+                <img src="./assets/homepage/Group 16060.png" alt="160" />
+              </div>
+              <p>
+                Greenline.com limited is registered in England and wales.
+                Company Np.3846791
+              </p>
+              <p>
+                Register address:<br />
+                3rd floor,120 Halborn,London EC1N 2TD, United Kingdom. VAT
+                number:791^^7161 06
+              </p>
+            </div>
+
+            <div class="footer-icon-group">
+              <a href="#">
+                <img src="./assets/homepage/Group 9740.png" alt="facebook icon"
+              /></a>
+              <a href="#">
+                <img src="./assets/homepage/Group 9741.png" alt="Twitter icon"
+              /></a>
+              <a href="#"
+                ><img src="./assets/homepage/Group 9742.png" alt="Camera icon"
+              /></a>
+              <a href="#">
+                <img src="./assets/homepage/Group 9743.png" alt="SMS icon"
+              /></a>
+            </div>
+          </section>
+          <!-- middle section of the footer -->
+          <section class="footer-middle">
+            <ul>
+              <li><a href="#">About Greenline</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Greenline Partner Solutions</a></li>
+              <li><a href="#">Addilates and Partnerships</a></li>
+              <li><a href="#">Terms and conditions / Security</a></li>
+              <li><a href="#">Privacy / Cookies</a></li>
+              <li><a href="#">Morden Slavery Act (UK)</a></li>
+            </ul>
+          </section>
+          <!-- right section of the footer -->
+          <section class="footer-right">
+            <ul>
+              <li><a href="">Help and useful information</a></li>
+              <li>
+                <a href="">Train and bus companies</a>
+              </li>
+              <li>
+                <a href="">Train Journeys in the UK</a>
+              </li>
+              <li>
+                <a href="">Trains and buses in European</a>
+              </li>
+              <li>
+                <a href="">Top destinations</a>
+              </li>
+              <li>
+                <a href="">Stations</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </section>
+      <!-- on the end of the page terms section  -->
+      <section class="terms">
+        <div class="terms-wrap">
+          <a href="#" target="_blank"
+            >CopyRight 2021 Greenline.com Limited and its affiliated companies.
+            All rights reserved.</a
+          >
+          <a href="#" target="_blank">Terms & Conditions | Privacy Policy</a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

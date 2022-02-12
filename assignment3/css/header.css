@@ -1,0 +1,76 @@
+header {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.header-wrap {
+  width: 1500px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* top function select menu */
+.header-function-top > .logo {
+  margin-top: 20px;
+}
+.header-function-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header-function-top > ul {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-function-top > ul > li {
+  font-size: 1.2em;
+  margin-left: 50px;
+}
+
+/* select menu */
+.header-function-top select {
+  width: 110px;
+  height: 30px;
+  border: none;
+  color: c;
+  /* background-image: url('../assets/homepage/path.png'); */
+}
+/* Flag icon  */
+.header-function-top > ul > li > img {
+  vertical-align: middle;
+  margin-top: -5px;
+}
+/* button */
+.header-function-top > ul > li > button {
+  width: 120px;
+  height: 36px;
+  background-color: rgb(4, 84, 164);
+  border-radius: 30px;
+  border: none;
+}
+
+/* header-function-selection-bottom */
+.function-selecton-bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+.function-selecton-bottom > ul {
+  display: flex;
+  flex-direction: row;
+}
+.function-selecton-bottom > ul > li {
+  margin-left: 50px;
+}
+
+.function-selecton-bottom > ul > li > img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-left: 5px;
+}

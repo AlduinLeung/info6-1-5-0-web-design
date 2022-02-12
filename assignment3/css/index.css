@@ -1,0 +1,24 @@
+/* public style */
+@import './public/reset.css';
+@import './public/common.css';
+
+/* header style */
+@import 'header.css';
+/* form section style */
+@import 'form-section.css';
+/* brief information section */
+@import 'brief-information.css';
+
+/* function select style */
+@import 'function-selection.css';
+/* help section style */
+@import 'help-section.css';
+/* footer style */
+@import 'footer.css';
+
+.help-section {
+  margin-top: 370px;
+}
+.funciton-selection {
+  margin-top: 37px;
+}

@@ -1,0 +1,97 @@
+/* biref information and card information flex */
+.brief-information-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1370px;
+  height: 510px;
+  margin: 0 auto;
+}
+.brief-information-section .brief-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.brief-information-section .brief-card ul {
+  width: 1370px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 0px;
+}
+.brief-information-section .brief-card .brief-wrap {
+  width: 420px;
+  height: 316px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  box-shadow: 1px 2px 2px 2px rgb(232, 239, 245);
+}
+.brief-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.brief-flex .desc-left h4 {
+  font-size: 1.6em;
+  margin: 12px;
+  color: rgb(100, 100, 100);
+  font-weight: 500;
+}
+.brief-flex .desc-left p {
+  font-size: 1.1em;
+  margin: 12px;
+  color: rgb(0, 168, 143);
+  font-weight: 550;
+}
+.brief-flex .right {
+  display: flex;
+  width: 130px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+.brief-flex .right .blue-star {
+  height: 38px;
+  width: 45px;
+  background-color: rgb(4, 84, 164);
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 38px;
+  border-radius: 10px;
+}
+.brief-flex .right p {
+  text-align: end;
+  padding: 0px;
+  margin: 0px;
+  font-size: 0.8em;
+}
+.brief-flex .right p:nth-child(1) {
+  color: rgb(89, 89, 89);
+}
+.brief-flex .right p:nth-child(2) {
+  color: rgb(89, 89, 89);
+  font-style: italic;
+  font-weight: lighter;
+}
+.brief-flex .small-grade {
+  margin: 10px, 5px, 0px, 10px;
+}
+/* big view all button */
+.brief-card button {
+  width: 500px;
+  height: 100px;
+  background-color: rgb(4, 84, 164);
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 50px;
+}

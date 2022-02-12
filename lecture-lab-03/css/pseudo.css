@@ -1,0 +1,39 @@
+@import 'layout.css';
+
+.section:hover {
+  background-color: green;
+}
+.section ::first-letter {
+  font-size: 36px;
+}
+.section::selection {
+  background-color: yellow;
+}
+
+.part {
+  width: 100px;
+  display: inline-block;
+}
+.section {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.outer {
+  width: 100%;
+  border: 5px solid red;
+  overflow: hidden;
+}
+.innerleft {
+  width: 100px;
+  height: 100px;
+  border: 2px solid green;
+  float: left;
+}
+.innerright {
+  width: 100px;
+  height: 100px;
+  border: 2px solid blue;
+  float: right;
+}

@@ -1,0 +1,17 @@
+@import 'layout.css';
+/* descent section */
+section p {
+  color: rgb(55, 155, 164);
+}
+/* child - selection */
+section > h1 {
+  color: red;
+}
+/* adjacent sibling - selector */
+.article + p {
+  color: green;
+}
+/* genaral sibling - selector  */
+.article ~ p {
+  color: orange;
+}

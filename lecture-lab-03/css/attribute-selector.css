@@ -1,0 +1,25 @@
+@import 'layout.css';
+
+[data] {
+  padding: 20px;
+}
+/* select only data = attr */
+[data='fruit apple'] {
+  font-weight: bold;
+}
+/* starts with attr*/
+[data^='orange'] {
+  color: orange;
+}
+/* ends with attr*/
+[data$='blue'] {
+  color: red;
+}
+/* contains attr */
+[data*='apple'] {
+  color: green;
+}
+/* contains attr and split with space  */
+[data~='blueberry'] {
+  text-align: center;
+}

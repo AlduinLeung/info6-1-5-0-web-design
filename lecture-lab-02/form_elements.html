@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Elements</title>
+  </head>
+  <body>
+    <h1>Form Elements</h1>
+    <form action="./table.html" method="get">
+      <fieldset>
+        <label for="firstname">First Name:</label>
+        <input
+          type="text"
+          name="firstname"
+          placeholder="Enter  your FirstName"
+        />
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" placeholder="Enter your LastName" />
+      </fieldset>
+
+      <fieldset>
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" />
+        <label for="female">female</label>
+      </fieldset>
+      <fieldset>
+        <legend>Interests</legend>
+        <input type="checkbox" id="programming" name="Interests" />
+        <label for="programming">programming</label>
+        <input type="checkbox" id="Swimming" name="Interests" />
+        <label for="Swimming">Swimming</label>
+      </fieldset>
+      <fieldset>
+        <legend>DOB</legend>
+        <label for="DOB" id="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob" />
+      </fieldset>
+      <button type="submit">submit</button>
+      <button type="clear">clear</button>
+    </form>
+  </body>
+</html>

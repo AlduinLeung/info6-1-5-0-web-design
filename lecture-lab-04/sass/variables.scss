@@ -1,0 +1,4 @@
+// variables
+@use 'sass:color';
+$cell-color: rgba(19, 157, 131, 0.4);
+$cell-border-color: color.adjust($cell-color, $alpha: 1);

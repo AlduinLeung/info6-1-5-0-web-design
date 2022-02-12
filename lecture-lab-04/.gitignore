@@ -1,0 +1,4 @@
+node_moduels
+*.log
+dist
+package-lock.json

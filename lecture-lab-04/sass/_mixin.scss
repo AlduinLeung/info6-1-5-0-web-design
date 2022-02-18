@@ -1,3 +1,11 @@
 @mixin border($color) {
   border: 2px solid $color;
 }
+@mixin background-color {
+  background-color: red;
+}
+@mixin set-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
